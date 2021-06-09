@@ -1,0 +1,34 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__counter-text {
+    display: inline-block;
+    margin: 0px 3px;
+    font-size: 12px;
+  }
+
+  &__title {
+    font-size: 18px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__count {
+    font-size: 22px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+
+  .btn {
+    flex-grow: 0;
+  }
+}
